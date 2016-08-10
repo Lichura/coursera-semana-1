@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E4693EF91D5BC1A6006895C1 /* File in Resources */ = {isa = PBXBuildFile; fileRef = E4693EF81D5BC1A6006895C1 /* File */; };
+		E4693EFB1D5BC33E006895C1 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4693EFA1D5BC33E006895C1 /* File.swift */; };
 		E4D798711D3FE30C006D53AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D798701D3FE30C006D53AC /* AppDelegate.swift */; };
 		E4D798731D3FE30C006D53AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D798721D3FE30C006D53AC /* ViewController.swift */; };
 		E4D798761D3FE30C006D53AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4D798741D3FE30C006D53AC /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E4693EF81D5BC1A6006895C1 /* File */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		E4693EFA1D5BC33E006895C1 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		E4D7986D1D3FE30B006D53AC /* para git.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "para git.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4D798701D3FE30C006D53AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4D798721D3FE30C006D53AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +81,7 @@
 		E4D798641D3FE30B006D53AC = {
 			isa = PBXGroup;
 			children = (
+				E4693EF81D5BC1A6006895C1 /* File */,
 				E4D7986F1D3FE30C006D53AC /* para git */,
 				E4D798841D3FE30C006D53AC /* para gitTests */,
 				E4D7988F1D3FE30C006D53AC /* para gitUITests */,
@@ -103,6 +108,7 @@
 				E4D798771D3FE30C006D53AC /* Assets.xcassets */,
 				E4D798791D3FE30C006D53AC /* LaunchScreen.storyboard */,
 				E4D7987C1D3FE30C006D53AC /* Info.plist */,
+				E4693EFA1D5BC33E006895C1 /* File.swift */,
 			);
 			path = "para git";
 			sourceTree = "<group>";
@@ -229,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4693EF91D5BC1A6006895C1 /* File in Resources */,
 				E4D7987B1D3FE30C006D53AC /* LaunchScreen.storyboard in Resources */,
 				E4D798781D3FE30C006D53AC /* Assets.xcassets in Resources */,
 				E4D798761D3FE30C006D53AC /* Main.storyboard in Resources */,
@@ -257,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4D798731D3FE30C006D53AC /* ViewController.swift in Sources */,
+				E4693EFB1D5BC33E006895C1 /* File.swift in Sources */,
 				E4D798711D3FE30C006D53AC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +492,7 @@
 				E4D798971D3FE30C006D53AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4D798981D3FE30C006D53AC /* Build configuration list for PBXNativeTarget "para gitTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +501,7 @@
 				E4D7989A1D3FE30C006D53AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4D7989B1D3FE30C006D53AC /* Build configuration list for PBXNativeTarget "para gitUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +510,7 @@
 				E4D7989D1D3FE30C006D53AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
